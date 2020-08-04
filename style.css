@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: linear-gradient(to top,blue , red) ;
+  background-image: linear-gradient(to top,rgb(14, 14, 129) , rgb(61, 34, 34)) ;
   background-attachment: fixed;
   text-align: center;
 }
@@ -21,25 +21,35 @@ h1{
   border: solid 4px #ccc;
   box-shadow: 2px 2px 5px;
 }
-
 .green{
-  background: lightgreen;
+  background: purple;
+
   margin:20px;
   padding:20px;
 }
 
 .red{
   padding:20px;
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.281);
   margin:20px;
 }
 
 .blue{
   padding:20px;
-  background-color: skyblue;
+  background-color: rgba(9, 159, 218, 0.856);
   margin:20px;
 }
+.yellow{
+  border:1px solid white;
+  margin:20px;
+  padding:20px;
+  transition: all 0.5s;
+}
+.yellow:hover{
+  background:rgba(255, 255, 0, 0.753);
+  
+}
 
-li{
+ul{
   list-style: none;
 }
