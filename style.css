@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(blue , yellow) ;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+h1{
+  display: inline-block;
+  margin: 1rem auto 1rem auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: #333333;
+}
+
+.green{
+  background: lightgreen;
+}
+
+.red{
+  background-color: tomato;
+}
+
+.blue{
+  background-color: skyblue;
+}
